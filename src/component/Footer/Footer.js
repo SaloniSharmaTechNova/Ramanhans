@@ -36,7 +36,6 @@ const Footer = () => {
             <li>Books & Publications</li>
           </ul>
         </div>
-
         <div className="footer-box">
           <h3>Contact Us</h3>
           <p>📍 Punjab, India</p>
