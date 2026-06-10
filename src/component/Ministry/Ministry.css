@@ -1,0 +1,70 @@
+.ministry{
+    padding:80px 8%;
+    background:#f8f8f8;
+}
+
+.ministry-heading{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.ministry-heading h2{
+    font-size:48px;
+    color:#0E103F;
+    margin-bottom:15px;
+}
+
+.ministry-heading p{
+    font-size:18px;
+    color:#666;
+    max-width:700px;
+    margin:auto;
+}
+
+.ministry-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+.ministry-card{
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:0.4s;
+}
+
+.ministry-card:hover{
+    transform:translateY(-10px);
+}
+
+.ministry-card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.ministry-card h3{
+    padding:20px 20px 10px;
+    color:#0E103F;
+    font-size:28px;
+}
+
+.ministry-card p{
+    padding:0 20px 25px;
+    color:#666;
+    line-height:1.7;
+}
+
+@media(max-width:768px){
+
+    .ministry-heading h2{
+        font-size:34px;
+    }
+
+    .ministry-card h3{
+        font-size:24px;
+    }
+
+}
